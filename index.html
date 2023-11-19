@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>richardjames</title>
   <link rel="shortcut icon" href="img/icon.png" type="x-icon">
   <link rel="stylesheet" href="css/style.css">
@@ -18,7 +19,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark " id="navs" style="background-color: #004643;">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="navs" style="background-color: #004643;">
     <div class="container nabs">
       <a class="logo" href="#" id="logo">Rj</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -49,10 +50,10 @@
 
 
   <!-- Home Section -->
-  <section class="home" style="background-color: #004643; padding: 4rem 2rem;" id="homepage">
+  <section class="home" style="background-color: #004643; padding: 8rem 2rem 5rem 2rem;" id="homepage">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6" style="padding-left:3rem;">
+        <div class="col-lg-6 col-md-12" style="padding-left:3rem;">
           <div class="home-content text-white">
             <h3 class="mb-4">Hello, I am</h3>
             <h1 class="display-4 mb-4" style="color: #fffffe;">Richard James</h1>
@@ -72,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="col-12 prof text-center">
             <img src="img/profile6.png" style="width: 50rem;" class="img-fluid">
           </div>
@@ -86,14 +87,11 @@
   <section id="portfolio" class="text-white" style="background-color: #abd1c6; ">
     <div class="container" style="padding-top: 3rem;">
       <h2 class=" text-center" style=" font-size: 40px; color: #001e1d;">My Works</h2>
-      <p class="text-center" style="color: #0f3433; font-size: 18px;">Explore a curated collection of my web development
-        and design projects. From responsive and user-friendly websites to creative and intuitive interfaces, each
-        project showcases my passion for crafting digital solutions that leave a lasting impact. Dive into my works and
-        discover the intersection of creativity and functionality.</p>
+      <p class="text-center" style="color: #0f3433; font-size: 18px;">Check out the cool websites and designs I've made! I enjoy creating easy-to-use sites and unique interfaces</p>
       <div class="row">
         <div class="row">
           <div class="col-12 col-md-4 mb-4">
-            <div class="card" style="background-color: #004643;">
+            <div class="card" id="wcard"  style="background-color: #004643;">
               <img src="img/tindog.png" class="card-img-top">
               <div class="card-body text-white">
                 <h5 class="card-title" style="color: #fffffe;">Tindog Companion Finder</h5>
@@ -105,7 +103,7 @@
             </div>
           </div>
           <div class="col-12 col-md-4 mb-4">
-            <div class="card" style="background-color: #004643;">
+            <div class="card" id="wcard"  style="background-color: #004643;">
               <img src="img/img2.png" class="card-img-top">
               <div class="card-body text-white">
                 <h5 class="card-title" style="color: #fffffe;">Design Exploration</h5>
@@ -116,8 +114,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 mb-4">
-            <div class="card" style="background-color: #004643;">
+          <div class="col-12 col-md-4 mb-4" >
+            <div class="card" id="wcard"  style="background-color: #004643;">
               <img src="img/port3.png" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title" style="color: #fffffe;">Restaurant Reservation App</h5>
@@ -143,7 +141,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="img/img2.png" class="img-fluid" style="border: 3px solid #004643; border-radius: 2rem;">
+          <img src="img/img2.png" class="img-fluid" style="margin-top: 20px; border: 3px solid #004643; border-radius: 2rem;">
           <img src="img/tindog.png" class="img-fluid"
             style=" border: 3px solid #004643; margin-top: 20px;  border-radius: 2rem;">
           <img src="img/web1.png" class="img-fluid"
@@ -170,10 +168,7 @@
     <div class="container">
       <div class="row">
         <h2 class=" text-center" style="font-size: 40px; color: #fffffe;">My Certificates</h2>
-        <p class="text-center" style="color: #abd1c6; font-size: 18px;">Explore my certifications, showcasing my
-          commitment to continuous learning and professional development. Each certificate represents a milestone in my
-          journey, validating my expertise in various aspects of web development and design. These certifications serve
-          as a testament to my dedication to staying current in the ever-evolving tech landscape.</p>
+        <p class="text-center" style="color: #abd1c6; font-size: 18px;">Check out my certifications, which highlight my dedication to always learning and growing professionally.</p>
 
         <div class="col-md-4 mb-4 certificate">
           <img src="img/cert1.png" style="border-radius: 0.5rem;" class="img-fluid">
@@ -194,9 +189,7 @@
   <section id="Skills" class="services-section" style="background-color:#004643; padding-top: 5rem;">
     <div class="container">
       <h2 class=" text-center" style="padding-left: rem; color: #fffffe; font-size: 40px;">Skills</h2>
-      <p class="text-center" style="color: #abd1c6; font-size: 18px;">Explore my diverse skill set, honed through
-        hands-on experience and continuous learning. From front-end development to back-end programming, UI/UX design,
-        and networking, my skills cover a wide spectrum of technologies. Here's a glimpse of what I bring to the table:
+      <p class="text-center" style="color: #abd1c6; font-size: 18px;">Check out my varied skills, developed through hands-on experience and ongoing learning.
       </p>
       <div class="row mx-auto">
         <div class="col-md-3 col-sm-6">
