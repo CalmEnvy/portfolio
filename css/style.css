@@ -30,17 +30,8 @@
 
 /* Home section */
 .home {
-  color: #fff;
-  padding: 5rem 0;
-
+  padding: 2rem 0;
 }
-
-.home-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-
 
 
 /* portfolio section */
@@ -399,5 +390,8 @@
     }
     .home-content{
       padding-left:2rem;
+    }
+  .home{
+      padding-top: 8rem;
     }
 }
