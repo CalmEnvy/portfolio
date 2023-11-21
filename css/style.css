@@ -27,15 +27,6 @@
   color: #f9bc60;
 }
 
-.home {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 70px 10% 0;
-
-}
 
 /* Home section */
 .home {
@@ -299,7 +290,7 @@
 
   #homepage .home-content {
     text-align: center;
-    margin-right: 3rem;
+
   }
 
   #homepage .btn1 {
@@ -323,7 +314,6 @@
 
   #homepage .home-content {
     text-align: center;
-    margin-right: 2.4rem;
     margin-top: 1rem;
   }
 
@@ -406,5 +396,8 @@
       z-index: 100;
       width: 100%;
       background-color: transparent !important;
+    }
+    .home-content{
+      padding-left:2rem;
     }
 }
